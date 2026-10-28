@@ -1,0 +1,70 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+main {
+    
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    height: 100vh;
+    
+   
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    
+}
+
+.generator-card {
+    width: 30%;
+    margin: 0 auto;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.generator-display p {
+    background-color: white;
+    height: 20px;
+    width: 90%;
+    text-transform: capitalize;
+    margin: 0 auto;
+}
+
+.generator-btn {
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+    width: 70%;
+   
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.generator-btn:hover {
+    background-color: rgb(0, 0, 150);
+}
+
+.generator-btn:active {
+    background-color: rgb(76, 76, 246);
+}
